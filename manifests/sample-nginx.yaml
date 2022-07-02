@@ -39,7 +39,6 @@ spec:
       app: sample-nginx
   template:
     metadata:
-      name: sample-nginx-pod
       labels:
         app: sample-nginx
     spec:
