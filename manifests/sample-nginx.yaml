@@ -47,7 +47,7 @@ spec:
     spec:
       containers:
       - name: sample-nginx-container
-        image: nginx:1.14.7
+        image: nginx:1.16.1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 80
