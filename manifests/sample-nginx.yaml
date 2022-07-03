@@ -21,11 +21,11 @@ kind: Service
 metadata:
   name: sample-nginx-service
 spec:
+  type: ClusterIP
   ports:
   - port: 80
   selector:
     app: sample-nginx
-  clusterIP: None
 
 ---
 apiVersion: apps/v1
